@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import BodyFirst from '../components/BodyFirst'
-import Carousel from '../components/Carousel'
+import CarouselPosts from '../components/CarouselPosts'
 import Header from '../components/Header'
 import Suggestion from '../components/Suggestion'
 // import FeaturedPosts from '../sections/FeaturedPosts'
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Header />
       <Suggestion />
-      <Carousel />
+      <CarouselPosts />
       <BodyFirst />
     </div>
   )
